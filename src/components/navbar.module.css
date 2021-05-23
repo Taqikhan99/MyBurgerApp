@@ -1,6 +1,31 @@
 .navbar{
-    width: 100%;
+    width: 98%;
     height: 50px;
-    padding: .5rem;
-    background-color: rgb(12, 65, 12);
+    padding: 0 1%;
+    background-color: rgb(10, 80, 10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brgrlogo{
+    width: 20%;
+    height: 60px;
+    display: flex;
+    color: white;
+    cursor: pointer;
+
+}
+.loginSection{
+    width: 8%;
+    min-width: 100px;
+    
+    text-align: center;
+
+}
+.loginSection a{
+    text-decoration: none;
+    color: white;
+}
+.loginSection a :hover{
+    color: tomato;
 }

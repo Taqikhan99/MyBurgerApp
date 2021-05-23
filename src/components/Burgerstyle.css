@@ -5,7 +5,7 @@
 }
 .heading{
     text-align: center;
-    border: 1px solid red;
+   
 }
 .ingredientssection{
     background-color: rgb(6, 124, 6);
@@ -23,7 +23,8 @@
 .ingredient{
     display: flex;
     justify-content: space-around;
-    height: 50px;
+    align-items: center;
+    height: 40px;
     padding: 5px;
     background-color: rgb(76, 82, 72);
     margin: .5rem 0;
