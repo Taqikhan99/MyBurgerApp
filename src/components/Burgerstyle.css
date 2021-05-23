@@ -1,0 +1,102 @@
+.burgeringredients{
+    height: 320px;
+    width: 100%;
+    overflow: auto;
+}
+.heading{
+    text-align: center;
+    border: 1px solid red;
+}
+.ingredientssection{
+    background-color: rgb(6, 124, 6);
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 300px;
+    border-radius: 1rem;
+    padding: .5rem;
+    
+    
+}
+.ingredient{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    padding: 5px;
+    background-color: rgb(76, 82, 72);
+    margin: .5rem 0;
+    border-radius: 1rem;
+}
+.spacetoitem{
+    margin-left: 30%;
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ingredientssection p{
+    font-size: 1.2rem;
+    color: white;
+
+}
+.btn{
+    width: 40%;
+    height: 60%;
+    padding: .5rem;
+    background-color: rgb(224, 167, 10);
+    border: 2px solid white;
+    cursor: pointer;
+}
+/* sides */
+.topside{
+
+    background-image: url(../assets/burgertop.jpg);
+    background-size: 300px;
+    height: 100px;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: table;
+    background-position:center ;
+}
+
+.bottomside{
+    background-size: 300px;
+    height: 100px;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: table;
+    background-position:center ;
+    background-image: url(../assets/burgerbottom.jpg);
+}
+
+
+.brgrlettuce, .brgrcheese, .brgrtomato,.brgrmeat{
+    background-size: 300px;
+    margin: 0;
+    height: 45px;
+    margin-top: 3px;
+  
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position:center ;
+}
+.brgrlettuce{
+    background-image: url(../assets/lettuce2.jpg);
+
+    height: 30px;
+    
+}
+
+.brgrmeat{
+    background-image: url(../assets/meat2.jpg);
+}
+.brgrcheese{
+    background-image: url(../assets/cheese2.jpg);
+    height: 10px;
+}
+.brgrtomato{
+    background-image: url(../assets/tomato2.jpg);
+    height: 20px;
+}
