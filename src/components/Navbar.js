@@ -10,7 +10,7 @@ class Navbar extends Component {
                     <h3>TK<span id={styles.lg}>Burgers</span></h3>
                 </div>
                 <div className={styles.loginSection}>
-                    <a href="#"><h3>Login</h3></a>
+                    <a href=''><h3>Login</h3></a>
                 </div>
             </div>
         );
